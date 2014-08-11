@@ -1,0 +1,73 @@
+html{
+	background: url(../img/bkgr.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+html,body{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+body{
+    background:none;
+    color:rgb(10,10,10);
+    
+}
+a{
+    color: rgb(250,250,250);
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(250,250,250,.5);
+    text-decoration: none;
+}
+#container{
+}
+
+#logo{
+	background-image: url(../img/hc.png);
+	background-repeat: no-repeat;
+}
+
+.transparent-bkgr{
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.3);
+}
+
+#sup{
+	/*background: rgb(0,0,0);*/		
+}
+
+#sup{
+	text-align: center;
+}
+
+h2{
+    color: rgb(10,10,10);
+    line-height: .8em;
+    font-weight:700;
+}
+
+h2#bk{
+	font-size: 110px;
+}
+
+h2#rc{
+	font-size: 85px;
+}
+
+h2#hb{
+	font-size: 56px;
+}
+.margin-bottom-sm{
+    margin-bottom:1rem;
+}
+.margin-bottom-md{
+    margin-bottom:2rem;
+}
+.margin-bottom-lg{
+    margin-bottom:4rem;
+}

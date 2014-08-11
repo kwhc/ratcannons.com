@@ -6,9 +6,7 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css' />
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
-    <link type="text/css" rel="stylesheet" href="styles/type.css" />
-    <link type="text/css" rel="stylesheet" href="styles/color.css" />
-    <link type="text/css" rel="stylesheet" href="styles/layout.css" />
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" />
     <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-30111953-1']);
@@ -24,24 +22,37 @@
 
 <body class="container">
     <div id="container">
-        <div class="row" style="margin-top:20rem;background:none;">
-            <div id="logo" class="col-md-4 col-md-offset-1 col-xs-12" style="padding:0;">
-                <img id="logo-img" src="img/ratcannons_logo.png" class="img-responsive" />
-            </div>
-            <div id="sup" class="col-md-6 logo-height col-xs-12" style="padding:0;">
-                <div style="padding:5rem;">
-                    <h2 id="bk">Brooklyn</h2>
-                    <h2 id="rc">Rat Cannons</h2>
-                    <h2 id="hb">Hardcore Baseball</h2>
-                </div>
-            </div>  
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <?php include('tweets.php') ?>
-            </div>            
-        </div>
+        <div style="margin-top:20rem;background:none;">
 
+            <div class="row margin-bottom-sm">
+                <div class="col-xs-12 col-md-10 col-md-offset-1 transparent-bkgr">
+                    <div style="padding:2rem 0;">
+                        <div class="row">
+                            <div class="col-xs-1">
+                                 <i class="fa fa-comment fa-4x"></i>
+                            </div>
+                            <div class="col-xs-11">
+                                <?php include('tweets.php') ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>            
+            
+            <div class="row margin-bottom-sm" >
+                <div id="logo" class="col-md-4 col-md-offset-1 col-xs-12" style="padding:0;">
+                    <img id="logo-img" src="img/ratcannons_logo.png" class="img-responsive" />
+                </div>
+                <div id="sup" class="col-md-6 logo-height col-xs-12 transparent-bkgr" style="padding:0;">
+                    <div style="padding:5rem;">
+                        <h2 id="bk">Brooklyn</h2>
+                        <h2 id="rc">Rat Cannons</h2>
+                        <h2 id="hb">Hardcore Baseball</h2>
+                    </div>
+                </div>  
+            </div>
+
+        </div>
     </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

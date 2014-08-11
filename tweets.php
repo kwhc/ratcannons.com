@@ -63,16 +63,16 @@
 		
 		// Function parameters.
 		$twitter_user_id,
-		$cache_file          = './tweets.txt',  // Change this to the path of your cache file. (Default : ./tweets.txt)
+		$cache_file          = 'tweets.txt',  // Change this to the path of your cache file. (Default : ./tweets.txt)
 		$tweets_to_display   = 1,               // Number of tweets you would like to display. (Default : 5)
 		$ignore_replies      = false,           // Ignore replies from the timeline. (Default : false)
 		$include_rts         = false,           // Include retweets. (Default : false)
-		$twitter_wrap_open   = '<ul class="home-tweets-ul">',
+		$twitter_wrap_open   = '<ul class="list-unstyled home-tweets-ul">',
 		$twitter_wrap_close  = '</ul>',
 		$tweet_wrap_open     = '<li><p class="home-tweet-tweet">',
-		$meta_wrap_open      = '<br/><span class="home-tweet-date">',
-		$meta_wrap_close     = '</span>',
-		$tweet_wrap_close    = '</p></li>',
+		$meta_wrap_open      = '</p><div class="home-tweet-date" style="pull-right">',
+		$meta_wrap_close     = '</div>',
+		$tweet_wrap_close    = '</li>',
 		$date_format         = 'g:i A M jS',    // Date formatting. (http://php.net/manual/en/function.date.php)
 		$twitter_style_dates = true){           // Twitter style days. [about an hour ago] (Default : true)
 			
