@@ -22,16 +22,40 @@
 
 <body class="container">
     <div id="container">
-        <div style="margin-top:20rem;background:none;">
+        <div class="" style="background:none;">
+            
+            <div class="row margin-bottom-sm full-window-height hidden-xs">
+                <div class="col-xs-12">
+                    <div class="full-window-height" style="position:relative;">
+                        <div style="position:absolute;bottom:6rem;">
+                            <h2 id="bk">Brooklyn</h2>
+                            <h2 id="rc">Rat Cannons</h2>
+                            <h2 id="hb">Hardcore Baseball</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <div class="row margin-bottom-sm">
-                <div class="col-xs-12 col-md-10 col-md-offset-1 transparent-bkgr">
-                    <div style="padding:2rem 0;">
+            <div class="row margin-bottom-sm visible-xs peak-window-height">
+                <div class="col-xs-12">
+                    <div class="peak-window-height" style="position:relative;">
+                        <div class="text-center" style="position:absolute;bottom:6rem;width:100%;">
+                            <h2 id="bk">Brooklyn</h2>
+                            <h2 id="rc">Rat Cannons</h2>
+                            <h2 id="hb">Hardcore Baseball</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            
+            <div class="row margin-bottom-xl">
+                <div class="col-xs-12">
+                    <div class="bkgr-dark" style="padding:1rem 0;">
                         <div class="row">
-                            <div class="col-xs-1">
+                            <div class="col-sm-2 hidden-xs text-center">
                                  <i class="fa fa-comment fa-4x"></i>
                             </div>
-                            <div class="col-xs-11">
+                            <div class="col-xs-12 col-sm-10">
                                 <?php include('tweets.php') ?>
                             </div>
                         </div>
@@ -39,15 +63,23 @@
                 </div>            
             </div>            
             
-            <div class="row margin-bottom-sm" >
-                <div id="logo" class="col-md-4 col-md-offset-1 col-xs-12" style="padding:0;">
+            <div class="row margin-bottom-xl" >
+                <div id="logo" class="col-md-4 col-xs-12 margin-bottom-md">
                     <img id="logo-img" src="img/ratcannons_logo.png" class="img-responsive" />
                 </div>
-                <div id="sup" class="col-md-6 logo-height col-xs-12 transparent-bkgr" style="padding:0;">
-                    <div style="padding:5rem;">
-                        <h2 id="bk">Brooklyn</h2>
-                        <h2 id="rc">Rat Cannons</h2>
-                        <h2 id="hb">Hardcore Baseball</h2>
+                <div id="sup" class="col-md-8 logo-height col-xs-12 margin-bottom-md">
+                    <div class='bkgr-transparent text-left logo-height' style="padding:3rem;">
+                        <p>
+                            We first took the field as The Brooklyn Rat Cannons in the summer of 2012.
+                        </p>
+                        <p>
+                            Nested under the Brooklyn-Queens Expressway is our home, Commodore Barry Park in Vinegar Hill, Brooklyn.
+                        </p>
+                        <p>
+                            To contact us, please email 
+                               <br/>
+                            <a href='mailto:bkrc@ratcannons.com'>bkrc@ratcannons.com</a>
+                        </p>
                     </div>
                 </div>  
             </div>

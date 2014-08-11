@@ -14,7 +14,9 @@ html,body{
 body{
     background:none;
     color:rgb(10,10,10);
-    
+}
+p{
+    font-size:2rem;
 }
 a{
     color: rgb(250,250,250);
@@ -28,15 +30,19 @@ a:hover{
 }
 
 #logo{
-	background-image: url(../img/hc.png);
-	background-repeat: no-repeat;
+	/* background-image: url(../img/hc.png); */
+	/*  background-repeat: no-repeat; */
 }
 
-.transparent-bkgr{
+.bkgr-transparent{
     background: rgb(0,0,0);
     background: rgba(0,0,0,0.3);
+    color:rgb(250,250,250)
 }
-
+.bkgr-dark{
+    background-color: rgb(10,10,10);
+    color:rgb(250,250,250);
+}
 #sup{
 	/*background: rgb(0,0,0);*/		
 }
@@ -51,17 +57,7 @@ h2{
     font-weight:700;
 }
 
-h2#bk{
-	font-size: 110px;
-}
 
-h2#rc{
-	font-size: 85px;
-}
-
-h2#hb{
-	font-size: 56px;
-}
 .margin-bottom-sm{
     margin-bottom:1rem;
 }
@@ -70,4 +66,40 @@ h2#hb{
 }
 .margin-bottom-lg{
     margin-bottom:4rem;
+}
+.margin-bottom-xl{
+    margin-bottom:6rem;
+}
+
+@media(max-width:767px){
+    h2#bk{
+	font-size:6.5rem;
+    }
+
+    h2#rc{
+            font-size:5rem;
+    }
+
+    h2#hb{
+            font-size:3.2rem;
+    }
+}
+@media(min-width:768px){
+    h2#bk{
+           font-size: 12rem;
+   }
+
+   h2#rc{
+           font-size: 11rem;
+   }
+
+   h2#hb{
+           font-size: 7.3rem;
+   }   
+}
+@media(min-width:992px){
+    
+}
+@media(min-width:1200px){
+    
 }
